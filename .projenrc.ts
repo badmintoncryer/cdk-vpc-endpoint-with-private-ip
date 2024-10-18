@@ -5,9 +5,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.100.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.5.0',
-  name: 'cdk-vpc-endpoint-with-ip',
+  name: 'cdk-vpc-endpoint-with-private-ip',
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/badmintoncryer/cdk-vpc-endpoint-with-ip.git',
+  repositoryUrl: 'https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip.git',
 
   keywords: ['aws', 'cdk', 'ec2', 'aws-cdk'],
   gitignore: ['*.js', '*.d.ts', '!test/.*.snapshot/**/*', '.tmp'],
@@ -18,10 +18,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
     '@aws-cdk/integ-tests-alpha@2.100.0-alpha.0',
   ],
   releaseToNpm: true,
-  packageName: 'cdk-vpc-endpoint-with-ip',
+  packageName: 'cdk-vpc-endpoint-with-private-ip',
   publishToPypi: {
-    distName: 'cdk-vpc-endpoint-with-ip',
-    module: 'cdk-vpc-endpoint-with-ip',
+    distName: 'cdk-vpc-endpoint-with-private-ip',
+    module: 'cdk-vpc-endpoint-with-private-ip',
   },
 });
 project.projectBuild.testTask.exec(
