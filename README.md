@@ -22,12 +22,13 @@ npm install cdk-vpc-endpoint-with-private-ip
 
 ## Usage
 
-You can create an interface VPC endpoint with a private IP address using the `VpcEndpointWithPrivateIp` construct.
+You can create an interface VPC endpoint with private IP addresses using the `VpcEndpointWithPrivateIp` construct.
 
-The `InterfaceVpcEndpointProps` can be passed to the construct to configure the interface VPC endpoint.
+The `ec2.InterfaceVpcEndpointProps` can be passed to the construct to configure the interface VPC endpoint.
 
 ```typescript
 import { InterfaceVpcEndpointWithPrivateIp } from 'cdk-vpc-endpoint-with-private-ip';
+import * as ec2 from 'aws-cdk-lib/aws-ec2';
 
 declare const vpc: ec2.IVpc;
 
