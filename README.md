@@ -22,7 +22,7 @@ npm install cdk-vpc-endpoint-with-private-ip
 
 ## Usage
 
-You can create an interface VPC endpoint and retrive private IP addresses using the `VpcEndpointWithPrivateIp` construct.
+You can create an interface VPC endpoint and retrive its private IP addresses using the `VpcEndpointWithPrivateIp` construct.
 
 The `ec2.InterfaceVpcEndpointProps` can be passed to the construct to configure the interface VPC endpoint.
 
