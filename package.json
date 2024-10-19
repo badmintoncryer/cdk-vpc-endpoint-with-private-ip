@@ -1,9 +1,9 @@
 {
-  "name": "cdk-vpc-endpoint-with-ip",
+  "name": "cdk-vpc-endpoint-with-private-ip",
   "description": "CDK Construct for a VPC Endpoint with private IPs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badmintoncryer/cdk-vpc-endpoint-with-ip.git"
+    "url": "https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -127,8 +127,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "cdk-vpc-endpoint-with-ip",
-        "module": "cdk-vpc-endpoint-with-ip"
+        "distName": "cdk-vpc-endpoint-with-private-ip",
+        "module": "cdk-vpc-endpoint-with-private-ip"
       }
     },
     "tsc": {

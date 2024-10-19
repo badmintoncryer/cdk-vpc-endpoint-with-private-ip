@@ -1,7 +1,7 @@
 import { App, Stack } from 'aws-cdk-lib';
 import { Template } from 'aws-cdk-lib/assertions';
 import * as ec2 from 'aws-cdk-lib/aws-ec2';
-import { InterfaceVpcEndpointWithPrivateIp } from '../src/index';
+import { InterfaceVpcEndpointWithPrivateIp } from '../src';
 
 test('InterfaceVpcEndpointWithPrivateIp is created with correct properties', () => {
   const app = new App();
