@@ -8,7 +8,7 @@ This is a CDK construct that retrieves the private IP address of an Interface VP
 [![Build Status](https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip/actions/workflows/build.yml/badge.svg)](https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip/actions/workflows/build.yml)
 [![Release Status](https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip/actions/workflows/release.yml/badge.svg)](https://github.com/badmintoncryer/cdk-vpc-endpoint-with-private-ip/actions/workflows/release.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![npm downloads](https://img.shields.io/npm/dm/cdk-vpc-endpoint-with-private-ip.svg?style=flat)](https://www.npmjs.com/package/cdk-vpc-endpoint-with-private-ip)
+[![npm downloads](https://img.shields.io/npm/dt/cdk-vpc-endpoint-with-private-ip.svg?style=flat)](https://www.npmjs.com/package/cdk-vpc-endpoint-with-private-ip)
 
 ## Architecture
 
