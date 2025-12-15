@@ -19,9 +19,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   ],
   releaseToNpm: true,
   packageName: 'cdk-vpc-endpoint-with-private-ip',
+  npmTrustedPublishing: true,
+  workflowNodeVersion: '24',
   publishToPypi: {
     distName: 'cdk-vpc-endpoint-with-private-ip',
     module: 'cdk-vpc-endpoint-with-private-ip',
+    trustedPublishing: true,
   },
 });
 project.projectBuild.testTask.exec(
