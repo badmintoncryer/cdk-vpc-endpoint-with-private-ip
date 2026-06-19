@@ -2,7 +2,7 @@ import { awscdk } from 'projen';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Kazuho CryerShinozuka',
   authorAddress: 'malaysia.cryer@gmail.com',
-  cdkVersion: '2.100.0',
+  cdkVersion: '2.185.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.5.0',
   name: 'cdk-vpc-endpoint-with-private-ip',
@@ -14,8 +14,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   deps: [],
   description: 'CDK Construct for a VPC Endpoint with private IPs',
   devDeps: [
-    '@aws-cdk/integ-runner@2.100.0-alpha.0',
-    '@aws-cdk/integ-tests-alpha@2.100.0-alpha.0',
+    '@aws-cdk/integ-runner@2.185.0-alpha.0',
+    '@aws-cdk/integ-tests-alpha@2.185.0-alpha.0',
   ],
   releaseToNpm: true,
   packageName: 'cdk-vpc-endpoint-with-private-ip',

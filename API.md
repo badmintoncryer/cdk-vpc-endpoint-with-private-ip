@@ -45,6 +45,7 @@ new InterfaceVpcEndpointWithPrivateIp(scope: Construct, id: string, props: Inter
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.with">with</a></code> | Applies one or more mixins to this construct. |
 | <code><a href="#cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.applyRemovalPolicy">applyRemovalPolicy</a></code> | Apply the given removal policy to this resource. |
 | <code><a href="#cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.addToPolicy">addToPolicy</a></code> | Adds a statement to the policy document of the VPC endpoint. The statement must have a Principal. |
 
@@ -57,6 +58,27 @@ public toString(): string
 ```
 
 Returns a string representation of this construct.
+
+##### `with` <a name="with" id="cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
 
 ##### `applyRemovalPolicy` <a name="applyRemovalPolicy" id="cdk-vpc-endpoint-with-private-ip.InterfaceVpcEndpointWithPrivateIp.applyRemovalPolicy"></a>
 
